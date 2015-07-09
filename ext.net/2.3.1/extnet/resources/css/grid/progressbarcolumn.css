@@ -1,0 +1,7 @@
+﻿.x-progress-column-cell .x-progress-default{
+	height: 17px;
+}
+.x-progress-column-cell .x-progress-default .x-progress-text,
+.x-progress-column-cell .x-progress-default .x-progress-text-back{
+    line-height: 15px;
+}

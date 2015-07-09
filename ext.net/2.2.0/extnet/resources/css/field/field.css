@@ -1,0 +1,121 @@
+﻿.x-loading-indicator {
+    font-size: 11px;
+    background-image: url(../images/loading.gif);
+}
+
+.x-field-indicator {
+    position:absolute;
+    display:block;
+    top: 0px;
+    left: 2px;
+    height: 18px;        
+    padding-top: 4px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 3px;    
+    white-space: nowrap;
+}
+
+.x-textfield-icon {    
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    width: 16px;
+    height: 16px;
+    margin-left: 1px;
+    top: 3px;
+    left: 2px;
+}
+
+.x-ie7 .x-textfield-icon {
+    top: -19px;
+}
+
+.x-textfield-icon-input, textarea.x-textfield-icon-input {
+    padding-left: 20px;
+}
+
+.x-field-note {
+    font-size: 12px;
+    color: gray;    
+}
+
+.x-form-trigger-wrap.x-top-note .x-form-trigger {
+    top: auto;
+}
+
+.clear-right input.x-form-text {
+    border-right: 0px !important;
+}
+
+.x-field-buttons-body {
+    padding:0px;
+    position:static;
+    vertical-align:middle;            
+}
+
+.x-field-buttons-body input {
+    height: 20px !important;   
+}
+
+.x-ie6 .x-field-buttons-body input, .x-ie7 .x-field-buttons-body input {
+    float:left;
+}
+
+.x-field-buttons-body {
+    height: 20px !important;
+}
+
+.x-field-buttons-body input {
+    border:0px;                   
+    background:none;
+    vertical-align:top;
+}
+
+.x-field-toolbar-body .x-form-trigger {
+    border-bottom: none;
+}
+
+.x-field-toolbar-body .x-trigger-cell {
+    border-bottom: 1px solid #b5b8c8;
+}
+
+.x-theme-access .x-field-toolbar-body .x-trigger-cell {
+    border-bottom: 2px solid #737b8c;            
+}
+
+.x-field-toolbar-body .x-form-trigger {
+    height:21px;
+    margin-top:-1px;
+}
+
+.x-webkit .x-field-toolbar-body .x-form-trigger,
+.x-ie6 .x-field-toolbar-body .x-form-trigger,
+.x-ie7 .x-field-toolbar-body .x-form-trigger {
+    margin-top:0px;
+}
+
+.x-field-buttons-body .x-btn-icon {
+    padding-top:1px;
+}
+
+.x-form-form-item td.x-field-buttons-body {
+    border-top: 1px solid #b5b8c8;
+}
+
+.x-theme-access .x-form-form-item td.x-field-buttons-body {
+    border-top: 2px solid #737b8c;
+}
+
+.x-clear-button {
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/clear.gif);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    -moz-user-focus: ignore;             
+    cursor: pointer;
+    position: absolute;
+    margin-top: 3px;
+    margin-right: 2px;
+    overflow:  hidden;
+}

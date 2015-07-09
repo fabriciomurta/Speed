@@ -1,0 +1,26 @@
+.x-spotlight {
+    background-color: #ccc;
+
+    z-index: 8999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-opacity: 0.5;
+    opacity: .50;
+    filter: alpha(opacity=50);
+    width: 0;
+    height: 0;
+    zoom: 1;
+}
+.x-fieldset, .x-fieldset .x-fieldset-body, .x-ie .x-fieldset .x-fieldset-body {
+    padding-top: 0px;
+}
+.x-grid-row-expander{
+  background-position : 0 0px;
+}
+.x-tab-icon{
+    width:16px;
+    height:16px;
+    background-position: 0px;
+    margin-top: -1px;
+}

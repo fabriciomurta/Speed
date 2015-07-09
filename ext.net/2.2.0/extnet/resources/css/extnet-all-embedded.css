@@ -1,0 +1,452 @@
+/*
+ * @version   : 2.2.0 - Ext.NET Pro License
+ * @author    : Ext.NET, Inc. http://www.ext.net/
+ * @date      : 2013-04-16
+ * @copyright : Copyright (c) 2007-2013, Ext.NET, Inc. (http://www.ext.net/). All rights reserved.
+ * @license   : See license.txt and http://www.ext.net/license/.
+ */
+
+.x-spotlight {
+    background-color: #ccc;
+    z-index: 8999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-opacity: 0.5;
+    opacity: .50;
+    filter: alpha(opacity=50);
+    width: 0;
+    height: 0;
+    zoom: 1;
+}
+
+.x-fieldset, .x-fieldset .x-fieldset-body, .x-ie .x-fieldset .x-fieldset-body {
+    padding-top: 0px;
+}
+
+.x-grid-row-expander {
+  background-position : 0 0px;
+}
+
+.x-notification .x-window-body {
+    padding: 3px;
+    text-align: center;
+}
+
+.x-vmarker-xfieldlabel {
+    border: white; 
+    background-color: #00f; 
+    color: white;
+    padding: 2px;
+}
+
+.x-vmarker-yfieldlabel {
+    border: white;             
+    color: white;
+    padding: 2px 4px;
+}
+
+.x-tab-strip {
+    position: relative;
+}
+.row-cmd-cell-ct,
+.row-cmd-cell .x-grid-cell-inner {
+	padding:0px;
+}
+
+.x-grid-group-hd div.row-cmd-cell-group-ct {
+	padding:0px;
+	padding-top:6px;
+}
+
+div.row-cmd-cell-group-ct .x-grid-group-title {
+    float:left;
+    height:16px;
+    background-position: 0px 3px;
+    margin-left:4px;
+}
+
+.x-grid .row-cmd-cell-ct TABLE, 
+.x-grid .row-cmd-cell-ct TABLE.x-btn,
+.x-grid .row-cmd-cell-group-ct TABLE, 
+.x-grid .row-cmd-cell-group-ct TABLE.x-btn {
+    table-layout:auto !important;
+}
+
+.x-grid .row-cmd-cell-ct td,
+.x-grid .row-cmd-cell-group-ct td {
+	border-left:none !important;
+	border-right:none !important;
+	vertical-align:middle !important;
+}
+
+
+ .x-grid-summary-row td {
+	vertical-align:middle !important;
+}
+
+.x-grid-row td.x-grid-td-expander {
+	vertical-align:top !important;
+}
+
+.x-grid-group-hd div.row-cmd-cell-ct {
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+
+div.standard-view-group {
+    float:left;
+    padding-top:4px !important;
+    padding-bottom:4px !important;
+    padding-right:4px !important;
+    padding-left:0px !important;
+}
+
+
+.row-imagecommand-cell .x-grid-cell-inner {
+	padding:0px  !important;
+}
+
+.x-ie6 .row-imagecommand-cell .x-grid-cell-inner,
+.x-ie7 .row-imagecommand-cell .x-grid-cell-inner,
+.x-ie8 .row-imagecommand-cell .x-grid-cell-inner {
+	margin-top : -1px;
+}
+
+.row-imagecommand {
+	float:left  !important;
+	min-width:16px  !important;
+	height:16px  !important;
+	margin: 1px 1px 0px 0px  !important;
+	overflow:hidden  !important;
+	background-repeat:no-repeat  !important;	
+	cursor:pointer  !important;	
+}
+
+.row-imagecommand span {	
+	padding:0px 5px 0px 17px  !important;
+	line-height:16px  !important;
+	vertical-align:middle  !important;
+	white-space:nowrap !important;
+}
+
+
+
+.x-ie6 div.no-row-imagecommand-text{
+    width:16px !important;
+}
+
+.x-grid-group-imagecommand .x-grid-group-hd .x-grid-group-title {
+	height:16px !important;
+}
+
+.group-row-imagecommand {
+	float:left;
+	min-width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 50%;
+	margin: 0px 0px 0px 1px;
+	padding: 0px;
+	cursor:pointer;	
+	padding-top: 0px;
+}
+
+.right-group-imagecommand {
+	float:right;
+	margin: 0px 3px 0px 2px;
+	padding: 0px !important;
+}
+
+.group-row-imagecommand-cell {
+	float:left;
+	padding: 0px;
+	padding-right: 5px;
+	margin:1px 0px 0px 0px;	
+	background:transparent none !important;		
+}
+
+.group-row-imagecommand span {		
+	margin:0px 4px 0px 18px;
+	padding:0px;
+	line-height:18px;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+
+.x-hide-command .row-imagecommand {
+    height:0px !important;
+    width:0px !important;
+}
+.cell-imagecommand-cell .x-grid-cell-inner {
+	padding: 1px 0px 0px 0px;
+}
+
+.cell-imagecommand {
+	float:right;
+	min-width:16px;
+	height:16px;
+	margin: 0 5px 0 0;
+	overflow:hidden;
+	background-repeat:no-repeat;	
+	cursor:pointer;	
+}
+
+.left-cell-imagecommand {
+	float:left;
+}
+
+.cell-imagecommand span {	
+	padding:0px 0px 0px 20px;
+	line-height:18px;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+
+.cell-imagecommand-value {
+	float:left;
+	padding:2px 6px 3px 6px;
+}
+
+.cell-imagecommand-right-value .cell-imagecommand-value {
+	float:right;
+}
+
+.x-hide-command .cell-imagecommand{
+    height:0px;
+    width:0px;
+}
+
+.x-imagecommand-disabled, .x-item-disabled span {
+    cursor: default !important; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3; 
+}
+.x-grid-cell-checkcolumn .x-grid-cell-inner {
+    padding-top: 3px;
+    padding-bottom: 0;
+    line-height: 14px;
+}
+
+.x-grid-with-row-lines .x-grid-cell-checkcolumn .x-grid-cell-inner {
+    padding-top: 3px;
+}
+
+.x-grid-checkheader {
+    height: 14px;
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.grid.unchecked.gif")%>");
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.x-grid-checkheader-checked {
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.grid.checked.gif")%>");
+}
+
+.x-grid-checkheader-editor .x-form-cb-wrap {
+    text-align: center;
+}
+.x-grid-cell-wrap .x-grid-cell-inner {
+    white-space: normal;
+}
+.x-action-col-icon {
+    width: 16px;
+    height: 16px;
+}
+.row-cmp-cell-ct,
+.row-cmp-cell .x-grid-cell-inner {
+	padding:0px;
+}
+
+.x-grid .row-cmp-cell-ct TABLE, 
+.x-grid .row-cmp-cell-ct TABLE.x-btn {
+    table-layout:auto;
+}
+
+.x-grid .row-cmp-cell-ct td {
+	border-left:none !important;
+	border-right:none !important;
+	vertical-align:middle !important;
+}
+
+.x-grid .row-cmp-placeholder {
+    padding: 3px 6px;
+}
+
+.x-grid-componentcolumn .x-grid-cell {
+    vertical-align: middle;
+}
+
+.x-grid-componentcolumn .x-grid-cell .x-grid-cell-inner {
+   padding-bottom:2px;
+}
+
+.x-grid-componentcolumn .cell-imagecommand-cell .x-grid-cell-inner,
+.x-grid-componentcolumn .row-cmd-cell .x-grid-cell-inner,
+.x-grid-componentcolumn .row-cmp-cell .x-grid-cell-inner {
+   padding-bottom:0px;
+}
+.x-noleaf-icon img.x-tree-icon-leaf {
+    display: none;
+}
+
+
+.x-grid-tree-loading .x-tree-icon {
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.loading.gif")%>") !important;
+}
+
+.x-theme-neptune .x-grid-tree-loading .x-tree-icon {
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.loading.png")%>") !important;
+}
+.x-multi-selected
+{
+    border: 1px dotted black;
+    cursor: pointer;
+}
+
+.x-mcombo-item-checked {
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.grid.checked.gif")%>");
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-left: 18px;
+}
+
+.x-mcombo-item-unchecked {
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.grid.unchecked.gif")%>");
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-left: 18px;
+}
+
+.x-label {
+    height : 16px;
+}
+
+.x-label-value {
+    vertical-align : middle;
+}
+.x-loading-indicator {
+    font-size: 11px;
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.loading.gif")%>");
+}
+
+.x-field-indicator {
+    position:absolute;
+    display:block;
+    top: 0px;
+    left: 2px;
+    height: 18px;        
+    padding-top: 4px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 3px;    
+    white-space: nowrap;
+}
+
+.x-textfield-icon {    
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    width: 16px;
+    height: 16px;
+    margin-left: 1px;
+    top: 3px;
+    left: 2px;
+}
+
+.x-ie7 .x-textfield-icon {
+    top: -19px;
+}
+
+.x-textfield-icon-input, textarea.x-textfield-icon-input {
+    padding-left: 20px;
+}
+
+.x-field-note {
+    font-size: 12px;
+    color: gray;    
+}
+
+.x-form-trigger-wrap.x-top-note .x-form-trigger {
+    top: auto;
+}
+
+.clear-right input.x-form-text {
+    border-right: 0px !important;
+}
+
+.x-field-buttons-body {
+    padding:0px;
+    position:static;
+    vertical-align:middle;            
+}
+
+.x-field-buttons-body input {
+    height: 20px !important;   
+}
+
+.x-ie6 .x-field-buttons-body input, .x-ie7 .x-field-buttons-body input {
+    float:left;
+}
+
+.x-field-buttons-body {
+    height: 20px !important;
+}
+
+.x-field-buttons-body input {
+    border:0px;                   
+    background:none;
+    vertical-align:top;
+}
+
+.x-field-toolbar-body .x-form-trigger {
+    border-bottom: none;
+}
+
+.x-field-toolbar-body .x-trigger-cell {
+    border-bottom: 1px solid #b5b8c8;
+}
+
+.x-theme-access .x-field-toolbar-body .x-trigger-cell {
+    border-bottom: 2px solid #737b8c;            
+}
+
+.x-field-toolbar-body .x-form-trigger {
+    height:21px;
+    margin-top:-1px;
+}
+
+.x-webkit .x-field-toolbar-body .x-form-trigger,
+.x-ie6 .x-field-toolbar-body .x-form-trigger,
+.x-ie7 .x-field-toolbar-body .x-form-trigger {
+    margin-top:0px;
+}
+
+.x-field-buttons-body .x-btn-icon {
+    padding-top:1px;
+}
+
+.x-form-form-item td.x-field-buttons-body {
+    border-top: 1px solid #b5b8c8;
+}
+
+.x-theme-access .x-form-form-item td.x-field-buttons-body {
+    border-top: 2px solid #737b8c;
+}
+
+.x-clear-button {
+    width: 16px;
+    height: 16px;
+    background-image: url("<%=WebResource("Ext.Net.Build.Ext.Net.extnet.resources.images.clear.gif")%>");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    -moz-user-focus: ignore;             
+    cursor: pointer;
+    position: absolute;
+    margin-top: 3px;
+    margin-right: 2px;
+    overflow:  hidden;
+}
+
